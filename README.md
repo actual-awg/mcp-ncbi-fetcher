@@ -7,6 +7,7 @@ docker build -t ncbi-mcp-server .
 docker run -it --rm ncbi-mcp-server
 
 make sure you add this to claude_desktop_config.json ($env:AppData\Claude\claude_desktop_config.json on windows)
+```
 json{
   "mcpServers": {
     "ncbi-sequence-fetcher": {
@@ -20,3 +21,4 @@ json{
     }
   }
 }
+```
